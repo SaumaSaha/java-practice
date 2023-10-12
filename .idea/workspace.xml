@@ -5,12 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0be6795d-8399-443d-8b02-ad6c0e04bdb3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/io/github/saumasaha/practice/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/github/saumasaha/practice/AgeComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/github/saumasaha/practice/Box.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/github/saumasaha/practice/ExpensivePencil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/github/saumasaha/practice/Intern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/io/github/saumasaha/practice/Intern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/github/saumasaha/practice/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/github/saumasaha/practice/MyNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/github/saumasaha/practice/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/github/saumasaha/practice/Pencil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/github/saumasaha/practice/SuperExpensivePencil.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -46,14 +53,120 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "code.cleanup.on.save": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "main",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "actions.on.save"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="io.github.saumasaha.practice" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Main" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="io.github.saumasaha.practice" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in practice">
+    <configuration name="All in practice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FrequencyTableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.saumasaha.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.saumasaha.practice" />
+      <option name="MAIN_CLASS_NAME" value="io.github.saumasaha.practice.FrequencyTableTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FrequencyTableTest.getCharCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.saumasaha.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.saumasaha.practice" />
+      <option name="MAIN_CLASS_NAME" value="io.github.saumasaha.practice.FrequencyTableTest" />
+      <option name="METHOD_NAME" value="getCharCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FrequencyTableTest.getMostFrequentLetter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.saumasaha.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.saumasaha.practice" />
+      <option name="MAIN_CLASS_NAME" value="io.github.saumasaha.practice.FrequencyTableTest" />
+      <option name="METHOD_NAME" value="getMostFrequentLetter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="io.github.saumasaha.practice in practice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.saumasaha.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.saumasaha.practice" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in practice" />
+        <item itemvalue="JUnit.FrequencyTableTest" />
+        <item itemvalue="JUnit.FrequencyTableTest.getCharCount" />
+        <item itemvalue="JUnit.io.github.saumasaha.practice in practice" />
+        <item itemvalue="JUnit.FrequencyTableTest.getMostFrequentLetter" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,5 +177,16 @@
       <updated>1696835789761</updated>
     </task>
     <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/practice$FrequencyTableTest.ic" NAME="FrequencyTableTest Coverage Results" MODIFIED="1697104838127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>io.github.saumasaha.practice.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/practice$MyArrayListTest.ic" NAME="MyArrayListTest Coverage Results" MODIFIED="1697103588384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>io.github.saumasaha.practice.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/practice$FrequencyTableTest_getMostFrequentLetter.ic" NAME="FrequencyTableTest.getMostFrequentLetter Coverage Results" MODIFIED="1697104728546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>io.github.saumasaha.practice.*</FILTER>
+    </SUITE>
   </component>
 </project>

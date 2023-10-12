@@ -1,28 +1,32 @@
 package io.github.saumasaha.practice;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
 import java.util.Objects;
 
+/**
+ * The type Intern.
+ */
 public class Intern {
   private final String name;
   private final int age;
 
+  /**
+   * Instantiates a new Intern.
+   *
+   * @param name name
+   * @param age  age
+   */
   public Intern(String name, int age) {
     this.name = name;
     this.age = age;
   }
 
+  /**
+   * Gets age.
+   *
+   * @return int
+   */
   public int getAge() {
     return this.age;
-  }
-
-  public static List<Intern> sort (List<Intern> interns, Comparator<Intern> c) {
-    List<Intern> sortedInterns = new ArrayList<>(interns);
-    sortedInterns.sort(c);
-
-    return sortedInterns;
   }
 
   @Override
@@ -35,6 +39,7 @@ public class Intern {
 
   /**
    * This is method generates a hash code from the name and the age of the intern
+   *
    * @return int
    */
   @Override
@@ -42,11 +47,13 @@ public class Intern {
     return Objects.hash(this.name, this.age);
   }
 
+
   /**
-   * This is method generates a hash code from the name and the age of the intern
-   * @return int
+   * Can vote if the intern is of age 18 or above.
+   *
+   * @return boolean
    */
-  public boolean canVote( ) {
+  public boolean canVote() {
     return this.age >= 18;
   }
 
@@ -57,4 +64,5 @@ public class Intern {
         ", age=" + this.age +
         '}';
   }
+
 }
